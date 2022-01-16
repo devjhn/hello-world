@@ -2,7 +2,7 @@
 
 namespace IonDevCode\HelloWorld;
 
-class HelloWorldProvider
+class HelloWorld
 {
 
 }

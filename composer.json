@@ -1,0 +1,33 @@
+{
+    "name": "iondevcode/hello-world",
+    "description": "hello world",
+    "keywords": ["laravel", "php"],
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "ionut eva",
+            "email": "dev.ionuteva10@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "IonDevCode\\HelloWorld\\": "/src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        },
+        "laravel": {
+            "providers": [
+                "IonDevCode\\HelloWorld\\Providers\\HelloWorldServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
